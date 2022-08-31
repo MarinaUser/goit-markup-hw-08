@@ -1,0 +1,47 @@
+.soc-card {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  
+  .soc-list__icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .soc-list__link:hover,
+  .soc-list__link:focus {
+    background-color: var(--btn-link-color);
+  }
+  
+  .soc-list__link:hover .soc-list__icon,
+  .soc-list__link:focus .soc-list__icon {
+    fill: #fff;
+  }
+
+
+  .soc-list__link  {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .soc-list__link--white {
+    background-color: #ffffff;
+  }
+
+  .soc-list__icon--grey {
+    fill: #afb1b8;
+  }
+
+  .soc-list__link--grey {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .soc-list__icon--white {
+    fill: #fff;
+  }

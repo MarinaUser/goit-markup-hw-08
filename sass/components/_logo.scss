@@ -1,0 +1,31 @@
+
+  .logo {
+    font-family: 'Raleway';
+    @include title(700,26px,1.2,0.03em);
+   
+  }
+
+  .heder__logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 93px;
+  }
+
+.header__logo--black{
+  color: var(--main-title-color);
+}
+.header__logo--blue {
+  color: var(--btn-link-color);
+}
+
+  .footer__logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .footer__logo--blue {
+    color: var(--btn-link-color);
+  }
+  .footer__logo--white {
+    color: #ffffff;
+  }

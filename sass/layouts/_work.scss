@@ -1,0 +1,47 @@
+.work {
+ display: none;
+    padding-bottom: 94px;
+    background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+    mix-blend-mode: normal;
+    &__item {
+      position: relative;
+      width: 370px;
+    }
+    
+    &__list {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+    }
+    &__title {
+      margin-bottom: 50px;
+      @include title(700,36px,1.2,0.03em);
+      text-align: center;
+      color: var(--main-title-color);
+    }
+    
+    &__text {
+      @extend %position;
+      justify-content: center;
+      background-color: rgba(47, 48, 58, 0.8);
+      width: 100%;
+      height: 70px;
+      position: absolute;
+      bottom: 0;
+      @include text(700,14px,1.14,0.03em);
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    @media screen and (min-width: 480px){
+      display: none;
+    }
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+    @media screen and (min-width: 1200px) {
+      display: block;
+    }
+  }
+  
+  

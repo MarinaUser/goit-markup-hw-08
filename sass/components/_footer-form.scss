@@ -1,0 +1,71 @@
+.footer-form {
+    display: flex;
+   align-items: flex-end;
+   margin-left: auto;
+  }
+  
+  .form-submit {
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+  }
+  
+  .submit-text {
+  @include text(700,14px,1.14,0.03em);
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  }
+  
+  .footer-input {
+    padding: 15px 16px;
+    width: 358px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+  color: #fff;
+  &::placeholder {
+    @include text(null,16px,1.25,0.03em);
+    @extend %position;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 16px;
+  }
+
+  }
+  
+  .footer-send-btn {
+    @extend %position;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+    @include title(700,16px,1.87,0.06em);
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    background-color:  #188ce8;
+  
+  }
+    &::after {
+    display: inline-block;
+    text-align: center;
+    content: "";
+    background-image: url(../img/icon-send.svg);
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    
+  }
+   
+  }
+  
+  
+  
