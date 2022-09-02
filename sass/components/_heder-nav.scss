@@ -1,7 +1,9 @@
+
 .main-nav {
   @extend %position;
   }
   .header__list {
+    
     display: flex;
     column-gap: 50px;
     margin-left: auto;
@@ -13,6 +15,7 @@
   }
 
   .navigation {
+   
     &__link {
       display: block;
       padding-top: 32px;
@@ -56,6 +59,12 @@
     }
   }
   
+  .navigation__list {
+    display: none;
+  }
+  .contact {
+    display: none;
+  }
   
   
   

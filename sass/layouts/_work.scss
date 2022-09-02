@@ -1,5 +1,7 @@
 .work {
+  
  display: none;
+
     padding-bottom: 94px;
     background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
     mix-blend-mode: normal;
@@ -33,12 +35,7 @@
       text-transform: uppercase;
       color: #ffffff;
     }
-    @media screen and (min-width: 480px){
-      display: none;
-    }
-    @media screen and (min-width: 768px) {
-      display: none;
-    }
+   
     @media screen and (min-width: 1200px) {
       display: block;
     }

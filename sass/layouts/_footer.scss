@@ -6,11 +6,29 @@
 
   .footer-container {
     display: flex;
-    align-items: baseline;
+    
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-right: 89px;
+      padding-left: 76px;
+    }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: nowrap;
+      gap: 0;
+      padding: 0;
+    }
   }
   
   .footer-address {
     font-style: normal;
+    
   }
   
   
@@ -55,10 +73,28 @@
     color: #ffffff;
     @include text(700,14px,1.14,0.03em);
     margin-bottom: 20px;
+    
   }
   
   
   .footer-contacs {
-    margin-right: 70px;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+      margin-right: 70px;
+      text-align: left;
+    }
+     
   }
+
+  .footer-link {
+text-align: center;
+@media screen and (min-width: 1200px) {
+  text-align: left;
+}
+  }
+
+  
+
+
+  
   
