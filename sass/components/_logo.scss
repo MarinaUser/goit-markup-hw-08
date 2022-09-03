@@ -9,6 +9,9 @@
     padding-top: 24px;
     padding-bottom: 24px;
     margin-right: 93px;
+    @media screen and (min-width: 768px) {
+      margin-right: 88px;
+    }
   }
 
 .header__logo--black{

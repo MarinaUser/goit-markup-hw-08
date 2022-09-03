@@ -24,6 +24,25 @@
   &:focus {
     color: var(--btn-link-color);
   }
+  @media screen and (min-width: 768px) {
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: flex-start;
     
+  } 
   }
+  .contact__mail {
+    @media screen and (min-width: 768px) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .contact__item {
+    @media screen and (min-width: 768px) {
+      // display: flex;
+      // flex-wrap: wrap;
+      // gap: 10px;
+    }
+  }
+
   
