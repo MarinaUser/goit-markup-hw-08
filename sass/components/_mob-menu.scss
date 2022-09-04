@@ -80,17 +80,17 @@
 }
 
 
-
+.mob-connect-list__item:not(:last-child) {
+    margin-bottom: 32px;
+}
 
 
 .mob-connect-list {
     margin-top: 302px;
-   &__item {
-        margin-bottom: 32px;
-    }
     &__tel {
         @include title(500,34px,1.17,0.02em);
     color: var(--btn-link-color);
+    
     }
     &__mail {
         @include title(500,24px,1.17,0.02em);
@@ -100,9 +100,12 @@
 
 
 
+
+
+
 .mob-soc-list {
   
-    padding-right: 100px;
+    
     display: flex;
     margin-top: 64px;
     &__link {

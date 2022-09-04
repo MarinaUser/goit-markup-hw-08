@@ -1048,12 +1048,15 @@ img {
 }
 
 .portfolio-link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .project {
   position: relative;
   overflow: hidden;
+  flex-grow: 1;
 }
 
 .overlay-text {
