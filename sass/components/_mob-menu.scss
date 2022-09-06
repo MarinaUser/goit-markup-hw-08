@@ -5,24 +5,24 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding-top: 21px;
+    padding-top: 48px;
     padding-bottom: 48px;
     z-index: 1;
     >.mob-container {
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        
     }
    
 }
 .mob-container {
+    position: relative;
     width: 100%;
     padding-left: 40px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
+
 .menu-open-btn {
 
     margin-left: auto;
@@ -53,8 +53,11 @@
 
  
 .menu-close-btn {
-    display: block;
-    margin-left: auto;
+    position: absolute;
+   top: 0;
+    right: 0;
+    margin-top: 21px;
+    margin-right: 25px;
    
     width: 40px;
     height: 40px;
@@ -83,7 +86,7 @@
 
 
 .mob-connect-list  {
-margin-top: 302px;
+margin-top: auto;
 &__item {
     margin-bottom: 32px;
 }
@@ -104,8 +107,6 @@ margin-top: 302px;
 
 
 .mob-soc-list {
-  
-    
     display: flex;
     margin-top: 32px;
     &__link {
@@ -115,13 +116,5 @@ margin-top: 302px;
     &__item:not(:last-child) {
         border-right: 1px solid rgba(33, 33, 33, 0.2);
         margin-right: 10px;
-        padding-right: 10px;
+        padding-right: 10px; }
     }
-}
-
-
-
-
-
-
-

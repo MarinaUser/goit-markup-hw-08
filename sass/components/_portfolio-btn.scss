@@ -3,6 +3,7 @@
   
   }
   
+  
   .portfolio-btn {
     border: none;
     height: 38px;
@@ -23,8 +24,28 @@
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
           0px 2px 2px rgba(0, 0, 0, 0.12);
       }
-      &:first-child {
-        background-color: var(--btn-link-color);
-      } 
+      
+     
   }
-  
+  .portfolio-btn1 {
+    border: none;
+height: 38px;
+padding: 6px 22px;
+font-family: inherit;
+@include title(500,16px,1.6,0.03em);
+color: #ffffff;
+background: var( --btn-link-color);
+
+border-radius: 4px;
+cursor: pointer;
+// transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//   color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     color: #ffffff;
+//     background-color: #2196f3;
+//     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+//       0px 2px 2px rgba(0, 0, 0, 0.12);
+//   }
+//     background-color: var(--btn-link-color);
+  } 
