@@ -765,7 +765,7 @@ img {
     align-items: baseline;
     flex-wrap: nowrap;
     gap: 0;
-    padding: 0;
+    justify-content: end;
   }
 }
 
@@ -832,6 +832,7 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-link {
     text-align: left;
+    margin-right: auto;
   }
 }
 
@@ -847,8 +848,10 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer-form {
-    align-items: flex-end;
+    display: flex;
+    align-items: center;
     flex-wrap: nowrap;
+    justify-content: end;
     gap: 0;
   }
 }
