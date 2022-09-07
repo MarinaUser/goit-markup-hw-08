@@ -849,7 +849,7 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-form {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: nowrap;
     justify-content: end;
     gap: 0;
@@ -864,6 +864,7 @@ img {
 @media screen and (min-width: 1200px) {
   .form-submit {
     text-align: start;
+    margin-right: 12px;
   }
 }
 
@@ -918,7 +919,7 @@ img {
   .footer-input {
     width: 358px;
     height: 50px;
-    margin-right: 12px;
+    margin-bottom: 0;
   }
 }
 
